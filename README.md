@@ -1,5 +1,5 @@
 # malloc.PerformanceTest
-## Malloc(Free(s));
+## Free(Malloc(s));
 thread 1  
 
 |size|Msvc|clang++|g++|
