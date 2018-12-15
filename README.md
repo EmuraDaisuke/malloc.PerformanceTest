@@ -1,5 +1,5 @@
 # malloc.PerformanceTest
-## Free(Malloc(s));
+## Free(Alloc(s));
 thread 1  
 
 |size|Msvc|clang++|g++|
@@ -62,7 +62,7 @@ thread 12
 |8388608|5.319216|5.245810|5.264902|
 |16777216|7.875718|7.755263|7.795194|
 
-# p[0] = Malloc(s); ...; Free(p[0]); ...;
+# p[0] = Alloc(s); ...; Free(p[0]); ...;
 thread 1  
 
 |size|Msvc|clang++|g++|
